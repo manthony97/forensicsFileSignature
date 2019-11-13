@@ -4,11 +4,42 @@ body{
 
 .jumbotron{
     margin-top: 2rem;
+    margin-bottom: 0;
 }
-.vertical-center {
-  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh; /* These two lines are counted as one :-)       */
 
-  display: flex;
-  align-items: center;
+h1.display-4{
+    text-align: center;
+}
+
+p.lead{
+    text-align: center;
+}
+
+a.nav-link{
+    color: #ffffff;
+}
+
+/* DROPZONE STYLING */
+
+.dragNdrop{
+    margin-top: 0;
+}
+
+.material-icons{
+    font-size: 75px;
+}
+
+.dropzone {
+    border: 2px dashed #0087F7;
+    border-radius: 5px;
+    background: white;
+    padding: 54px 54px;
+    text-align: center;
+    margin: 2em 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dropzone, .dropzone * {
+    box-sizing: border-box;
 }
