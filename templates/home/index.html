@@ -6,33 +6,33 @@
 
 {% block content %}
 
-{# BODY START #}
-{# JUMBOTRON #}
-<div class="container">
-    <div class="row">
-        <div class="col-lg-12 col-md-12">
-            <div class="jumbotron">
-                <h1 class="display-4">Signature Analysis Tool</h1>
-                <p class="lead">Tool used to verify the integrity of a file based on uploaded file's signatures. The
-                    associated
-                    file signatures along with the level of integrity will be returned upon completion.</p>
-                <hr class="my-4">
+    {# BODY START #}
+    {# JUMBOTRON #}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="jumbotron">
+                    <h1 class="display-4">Signature Analysis Tool</h1>
+                    <p class="lead">Tool used to verify the integrity of a file based on uploaded file's signatures. The
+                        associated
+                        file signatures along with the level of integrity will be returned upon completion.</p>
+                    <hr class="my-4">
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-{# FILE UPLOAD #}
-<div class="container dragNdrop">
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-            <form action="/file-upload"
-                  class="dropzone"
-                  id="my-awesome-dropzone"><i class="material-icons">cloud_upload</i></form>
+    {# FILE UPLOAD #}
+    <div class="container dragNdrop">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <form action="/file-upload"
+                      class="dropzone"
+                      id="my-awesome-dropzone"><i class="material-icons">cloud_upload</i></form>
+            </div>
+            <div class="col-md-2"></div>
         </div>
-        <div class="col-md-2"></div>
     </div>
-</div>
-    
+
 {% endblock content %}

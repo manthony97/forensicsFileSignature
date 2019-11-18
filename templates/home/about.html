@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% load staticfiles %}
+
+
+{% block content %}
+
+
+    {# BODY START #}
+    <div class="container body-start">
+{#        <div class="row">#}
+{#            <div class="col-md-4">#}
+{#                <img src="{% static 'img/manthony.jpg' %}" alt="">#}
+{#            </div>#}
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h1 class="display-4">About</h1>
+                    <hr class="my-4">
+                    <p>Digital files contain sequences of bits that reveal how information is stored within a file. An
+                    adversary can place malware within a file and then change the file extension in hope that it goes
+                    undetected by all anti-virus. To counter this adversary model, this program checks the validity the
+                    integrity of files.</p>
+                    <p>Flow of operations</p>
+                    <p class="lead">
+                        <a class="btn btn-primary btn-lg" href="https://github.com/manthony97/forensicsFileSignature"
+                           role="button">GitHub Repo</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}

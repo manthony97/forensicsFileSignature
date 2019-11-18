@@ -16,13 +16,16 @@
 <body>
 {# NAVBAR #}
 <nav class="navbar fixed-top navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">File Signature Search</a>
+    <a class="navbar-brand" href="{% url 'home' %}">File Signature Search</a>
     <ul class="nav justify-content-end">
         <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="{% url 'home' %}">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="{% url 'about' %}">About</a>
+        </li>
+         <li class="nav-item">
+            <a class="nav-link" href="{% url 'contact' %}">Contact</a>
         </li>
     </ul>
 </nav>
