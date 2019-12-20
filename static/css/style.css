@@ -44,3 +44,10 @@ a.nav-link{
     box-sizing: border-box;
 }
 
+/* MEDIA QUERIES */
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 2rem 2rem 0rem 2rem;
+    }
+}
